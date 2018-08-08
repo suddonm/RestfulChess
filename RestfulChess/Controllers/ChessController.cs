@@ -101,19 +101,18 @@ namespace RestfulChess.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(Game item)
+        public IActionResult Delete(long id)
         {
-            if (_context.Games.Contains(item))
-            {
-                _context.Games.Remove(item);
-                _context.SaveChanges();
-
-                return NoContent();
-            }
-            else
+            Game item = _context.Games.Find(id);
+            if (item == null)
             {
                 return NotFound();
-            }            
+
+            }
+            _context.Games.Remove(item);
+            _context.SaveChanges();
+
+            return NoContent();
         }
     }
 }
