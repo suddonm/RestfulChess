@@ -22,51 +22,7 @@ namespace RestfulChess.Controllers
             // Start a new chess game
             //if (_context.Pieces.Count() <= 0)
             //{
-            //    //Set up white pieces
-            //    //_context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, 2, 'A' ));
-            //    //_context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, 2,  'B' ));
-            //    /*_context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 2, Column = 'C' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 2, Column = 'D' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 2, Column = 'E' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 2, Column = 'F' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 2, Column = 'G' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 2, Column = 'H' }));
 
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Rook, new Piece.PiecePosition { Row = 1, Column = 'A' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Rook, new Piece.PiecePosition { Row = 1, Column = 'H' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Knight, new Piece.PiecePosition { Row = 1, Column = 'B' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Knight, new Piece.PiecePosition { Row = 1, Column = 'G' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Bishop, new Piece.PiecePosition { Row = 1, Column = 'C' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Bishop, new Piece.PiecePosition { Row = 1, Column = 'F' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.Queen, new Piece.PiecePosition { Row = 1, Column = 'D' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.King, new Piece.PiecePosition { Row = 1, Column = 'E' }));
-
-            //    //Set up black pieces
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'A' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'B' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'C' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'D' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'E' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'F' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'G' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Pawn, new Piece.PiecePosition { Row = 7, Column = 'H' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Rook, new Piece.PiecePosition { Row = 8, Column = 'A' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Rook, new Piece.PiecePosition { Row = 8, Column = 'H' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Knight, new Piece.PiecePosition { Row = 8, Column = 'B' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Knight, new Piece.PiecePosition { Row = 8, Column = 'G' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Bishop, new Piece.PiecePosition { Row = 8, Column = 'C' }));
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Bishop, new Piece.PiecePosition { Row = 8, Column = 'F' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.Black, Piece.PieceType.Queen, new Piece.PiecePosition { Row = 8, Column = 'D' }));
-
-            //    _context.Pieces.Add(new Piece(Piece.PieceColor.White, Piece.PieceType.King, new Piece.PiecePosition { Row = 8, Column = 'E' }));*/
 
             //    _context.SaveChanges();
             //}
