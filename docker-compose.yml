@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  restfulchess:
-    image: ${DOCKER_REGISTRY}restfulchess
-    build:
-      context: .
-      dockerfile: RestfulChess\Dockerfile
